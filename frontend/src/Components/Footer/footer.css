@@ -1,0 +1,30 @@
+.footer-area {
+  padding: 40px 0px;
+
+  color: #fff;
+}
+.footer-area a {
+  text-decoration: none;
+}
+.footer-area .footer-heading {
+  font-size: 24px;
+  color: #fff;
+}
+.footer-area .footer-underline {
+  height: 1px;
+  width: 70px;
+
+  background-color: #ddd;
+  margin: 10px 0px;
+}
+.copyright-area {
+  padding: 14px 0px;
+}
+.copyright-area p {
+  margin-bottom: 0px;
+  color: black;
+}
+.background_set{
+  padding: 2rem;
+  background: linear-gradient(to left, #6972b0, #010000);
+}

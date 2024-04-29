@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Urbanist", sans-serif;
+}
+.wrapper {
+  height: 80vh;
+
+  background-color: aquamarine;
+}
+#card {
+  background-image: url("https://images.unsplash.com/photo-1614252360204-4552963c9996?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  height: 50vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.slider-height{
+  height: 80vh;
+}
+.categorybg{
+  background: linear-gradient(to left, #6972b0, #010000);
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+.aaaaa{
+  margin: 2rem !important;
+  box-shadow: rgba(140, 144, 68, 0.719) 0px 14px 28px, rgba(79, 183, 178, 0.557) 0px 10px 10px !important;
+
+}

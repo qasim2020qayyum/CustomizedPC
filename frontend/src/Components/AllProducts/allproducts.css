@@ -1,0 +1,32 @@
+.product_bg{
+    background: linear-gradient(to left, #6972b0, #010000);
+    color: white;
+    padding-top: 2rem;
+}
+.product_card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-content: center;
+    /* margin: 2rem; */
+    
+}
+.search_fieldd{
+    margin-left: 1rem;
+}
+.card_products{
+  box-shadow: rgba(140, 144, 68, 0.719) 0px 14px 28px, rgba(79, 183, 178, 0.557) 0px 10px 10px !important;
+  padding-bottom: 2rem ;
+  margin: 1rem;
+  width: 25rem;
+}
+.card_products img {
+    width: 25rem;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+.cart_btnbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

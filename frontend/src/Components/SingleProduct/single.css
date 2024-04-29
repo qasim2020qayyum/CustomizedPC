@@ -1,0 +1,12 @@
+.dil:hover {
+  color: red;
+}
+.dil {
+  color: lightblue;
+}
+.carts {
+  display: none;
+}
+#hav:hover .carts {
+  display: flex;
+}

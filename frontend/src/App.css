@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.allthingsbg{
+  background: linear-gradient(to left, #6972b0, #010000) !important;
+  color: white !important;
+  padding-top: 2rem;
+}

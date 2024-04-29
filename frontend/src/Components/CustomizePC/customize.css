@@ -1,0 +1,75 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .whole_customize{
+    background: linear-gradient(to bottom, #6972b0, #010000);
+  }
+  .cus_container {
+    max-width: 1500px !important;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  .formdata {
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .cus_form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cus_checkbox-group,
+  .cus_radio-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .cus_checkbox-group label,
+  .cus_radio-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ 
+  .cus_button {
+    background-color: #594caf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cus_button:hover {
+    background-color: #4a3ab3;
+  }

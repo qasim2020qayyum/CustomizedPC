@@ -1,0 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.shadow {
+  box-shadow: 5px px lightslategray;
+}

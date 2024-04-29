@@ -527,6 +527,9 @@ exports.orderStatusUpdate = async (req, res) => {
     });
   }
 };
+
+
+
 // update user role
 exports.userRoleUpdate = async (req, res) => {
   const { id } = req.params;
@@ -542,6 +545,11 @@ exports.userRoleUpdate = async (req, res) => {
     });
   }
 };
+
+
+
+
+
 
 // get single Order
 exports.getSingleOrder = async (req, res) => {

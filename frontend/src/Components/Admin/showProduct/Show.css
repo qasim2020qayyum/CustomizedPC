@@ -1,0 +1,30 @@
+td label {
+  color: black;
+  font-family: sans-serif;
+}
+tr {
+  border: none;
+}
+#product {
+  box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #dee4e4;
+  border-radius: 10px;
+}
+#icon {
+  font-size: large;
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
+  #shirt {
+    display: none;
+  }
+  #ti {
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  label {
+    font-size: small;
+  }
+  #icon {
+    font-size: large;
+  }
+}

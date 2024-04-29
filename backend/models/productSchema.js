@@ -47,6 +47,7 @@ const Schema = new mongoose.Schema({
     default: Date.now,
   },
 });
+
 Schema.pre("save", async function (next) {
   const disprice = await ((this.discount * this.price) / 100);
   const sellingprice = this.price - disprice;
